@@ -1,3 +1,4 @@
-body {
-  background-color: #E4E6E5;
-}
+#main {
+  width: 960px;
+  margin: 0px auto;
+  background: red; }
