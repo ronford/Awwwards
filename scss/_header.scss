@@ -1,33 +1,68 @@
 header
 {
     width: 941px;
-    height: 180px;
+    height: 120px;
     margin:auto;
-    border: 1px solid red;
-  }
+}
+
+#logo
+{
+position: absolute;
+top: 50px;
+left: 130px;
+display: block;
+width: 288px;
+height: 56px;
+}
+
+#quote
+{
+position: absolute;
+top: 58px;
+left: 430px;
+display: inline-block;
+font-family:$secondary_font;
+color:$primary_color;
+}
 
   #grey_button
   {
+    margin:-15px 0px 0px 0px;
     font-size:13px;
     float: right;
     height: 32px;
-    width: 110px;
+    width: 130px;
     line-height: 5px;
     padding: 0px 30px;
     color: rgb(170, 170, 170);
     background: none repeat scroll;
     background-color:#444444;
   }
-      #social > ul > li
+      #social > ul > li .ft
       {
+        height:20px;
+        padding: 0px;
+        margin: -15px -146px 100px 0px;
+        display:inline-block;
+        float: right;
+        list-style-type: none;
+      }
+        #social > ul > li .link
+        {
+           height:20px;
         padding: 0px;
         margin: -15px 5px 100px 0px;
         display:inline-block;
         float: right;
         list-style-type: none;
-      }
-        #nav_1 > ul > li > a
+        }
+
+        #nav_1 > ul > li > a > small
           {
+           left:20px;
+           font-family:$secondary_font;
+           font-weight: bold;
+           font-color:$primary_color;
            display: inline-block;
            float: right;
            margin: -18px 6px 20px 0px;
@@ -35,14 +70,7 @@ header
            border-right: 1px solid rgb(119, 119, 119);
            color: rgb(170, 170, 170);
 
-        .logo > img
-             {
-                font-size:40px;
-                display: inline-block;
-                float:right;
-                margin: auto;
-                background-color: black;
-              }
+        }
 
 
 
@@ -50,4 +78,3 @@ header
 
 
 
-}
