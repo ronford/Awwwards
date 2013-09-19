@@ -1,0 +1,29 @@
+footer
+{
+  div
+  {
+    width: 218px;
+    // equation below calculates padding needed based on
+    // the space the four floated divs take up of the 941px
+    // width of their container
+    padding-right: (941px - (218px*4))/3;
+    float: left;
+    font-family: $primary_font;
+    font-size: 12px;
+
+    h3
+    {
+      color: $primary_color;
+    }
+
+    p
+    {
+      color: $secondary_color;
+    }
+  }
+
+  div:last-child
+  {
+    padding-right: 0;
+  }
+}

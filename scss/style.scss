@@ -1,16 +1,31 @@
-@import 'colors';
-@import 'fonts';
-@import 'header';
-@import 'nav';
-@import 'content';
-@import 'footer';
+@import "colors";
+@import "fonts";
+@import "header";
+@import "nav";
+@import "content";
+@import "footer";
 
 body
 {
-background-color: #E4E6E5;
+  background-color:#E4E6E5;
+  width: 941px;
+  height: 180px;
+  margin:auto;
+  border: 1px  red;
+}
+
+.clear
+{
+  clear: both;
+
 }
 
 a
 {
   text-decoration: none;
+}
+
+ul
+{
+list-style-type: none;
 }

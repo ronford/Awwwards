@@ -1,0 +1,12 @@
+// Tried 5 or 6 methods for importing Museo Sans, the primary
+// font used on the site. Nothing worked, so I resorted to
+// the declared fallbacks.
+//
+// Since we planned on using two fonts I set up both, though
+// they're set to the same declarations. It's less than ideal
+// but I don't want to invite errors from undefined variables.
+//
+// -Lars
+
+$primary_font : Helvetica, Arial, sans-serif;
+$secondary_font : Helvetica, Arial, sans-serif;
