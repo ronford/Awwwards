@@ -1,0 +1,23 @@
+header {
+  width: 941px;
+  height: 180px;
+  margin: auto;
+  border: 1px dashed red; }
+
+.grey_button p {
+  font-size: 13px;
+  float: right;
+  height: 32px;
+  width: 110px;
+  padding: 0px 30px;
+  text-align: justify;
+  line-height: 30px;
+  color: #aaaaaa;
+  background: none repeat scroll;
+  background-color: #444444; }
+
+body {
+  background-color: #E4E6E5; }
+
+a {
+  text-decoration: none; }
